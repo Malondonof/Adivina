@@ -23,8 +23,8 @@ def encode_image_to_base64(image_path):
         return "Error: No se encontró la imagen en la ruta especificada."
 
 # Configuración de la página en Streamlit
-st.set_page_config(page_title='Dibujo Inteligente 🎨')
-st.title('Tablero de Dibujo con IA 🖼️')
+st.set_page_config(page_title='Adivina')
+st.title('A ver si la IA adivina tu arte 🖼️')
 
 # Sección de la barra lateral
 with st.sidebar:
